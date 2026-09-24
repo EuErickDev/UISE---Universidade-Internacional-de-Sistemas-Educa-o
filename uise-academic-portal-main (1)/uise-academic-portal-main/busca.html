@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Busca | UiSE</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="catalog-page search-page">
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="UiSE, página inicial"><img src="assets/images/logouise.png" alt="UiSE"></a>
+    <nav class="site-nav" aria-label="Navegação principal">
+      <a href="index.html">Início</a>
+      <a href="sobre.html">Institucional</a>
+      <a href="cursos.html">Cursos &amp; Graduações</a>
+      <a href="eventos.html">Eventos Acadêmicos</a>
+    </nav>
+    <div class="header-actions">
+      <button class="theme-toggle" type="button" aria-label="Alternar tema"><span></span></button>
+      <a class="button button-outline button-small" href="login.html">Portal do Aluno</a>
+      <a class="button button-dark button-small" href="inscricao.html">Inscreva-se</a>
+    </div>
+  </header>
+
+  <main class="search-page-main page-shell">
+    <p class="eyebrow">Busca global</p>
+    <h1>Encontre informações na UiSE</h1>
+    <p class="search-page-lead">Pesquise cursos, graduações, eventos, polos, serviços e informações institucionais.</p>
+    <form class="site-search-form" role="search">
+      <label class="site-search-field">
+        <span aria-hidden="true">⌕</span>
+        <input class="site-search-input" type="search" name="busca" placeholder="Ex.: Engenharia, bolsas, polos, FAQ..." aria-label="Pesquisar em todo o portal">
+      </label>
+      <button class="button button-brand" type="submit">Pesquisar</button>
+    </form>
+    <p class="search-summary" aria-live="polite"></p>
+    <section id="global-search-results" class="global-search-results" aria-live="polite"></section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="page-shell footer-bottom"><span>© 2026 UiSE - Universidade Internacional de Sistemas e Educação.</span><span><a href="privacidade.html">Privacidade</a> · <a href="acessibilidade.html">Acessibilidade</a></span></div>
+  </footer>
+  <script src="js/script.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cursos técnicos e formações da UiSE.">
+  <title>Cursos | UiSE</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="courses-page">
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="UiSE, página inicial"><img src="assets/images/logouise.png" alt="UiSE"></a>
+    <nav class="site-nav" aria-label="Navegação principal">
+      <a href="index.html">Início</a>
+      <a href="sobre.html">Institucional</a>
+      <div class="dropdown category-dropdown">
+        <a class="is-active" href="cursos.html">Cursos &amp; Graduações</a>
+        <ul class="dropdown-menu">
+          <li><a href="graduacao.html">Graduação</a></li>
+          <li><a href="tecnicos.html">Cursos Técnicos</a></li>
+          <li><a href="cursos.html">Cursos Profissionalizantes</a></li>
+          <li><a href="pos.html">Pós-Graduação</a></li>
+        </ul>
+      </div>
+      <a href="eventos.html">Eventos Acadêmicos</a>
+    </nav>
+    <div class="header-actions">
+      <a class="button button-outline button-small" href="login.html">Portal do Aluno</a>
+      <a class="button button-dark button-small" href="inscricao.html">Inscreva-se</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="courses-hero page-shell">
+      <div class="courses-breadcrumb"><a href="index.html">Início</a><span>/</span><strong>Cursos</strong></div>
+      <p class="eyebrow">Cursos &amp; Graduações</p>
+      <h1>Cursos Profissionalizantes<br><span>UISE</span></h1>
+      <p class="courses-lead">Formações práticas, rápidas e focadas em ferramentas de mercado. Encontre o programa ideal para acelerar sua carreira em sistemas, redes, segurança e tecnologia aplicada.</p>
+      <form class="courses-filters" aria-label="Filtros de cursos">
+        <label class="course-search"><span aria-hidden="true">⌕</span><input type="search" name="busca" placeholder="Busque por nome do curso (ex: Cyber, Fullstack, Engenharia)..." aria-label="Buscar curso"></label>
+        <label><select name="nivel" aria-label="Filtrar por nível"><option value="">Todos os Níveis</option><option value="profissionalizante">Profissionalizante</option><option value="tecnico">Técnico Oficial</option><option value="graduacao">Graduação Superior</option><option value="pos">Pós-Graduação</option></select></label>
+        <label><select name="area" aria-label="Filtrar por área"><option value="">Área: Sistemas</option><option value="sistemas">Área: Sistemas</option><option value="redes">Área: Redes</option><option value="infraestrutura">Área: Infraestrutura</option></select></label>
+        <label><select name="modalidade" aria-label="Filtrar por modalidade"><option value="">Modalidade</option><option value="online">100% Online</option><option value="presencial">Presencial</option><option value="hibrido">Híbrido</option><option value="ead">EAD</option></select></label>
+      </form>
+    </section>
+
+    <section class="courses-note"><div class="page-shell"><div class="note-icon" aria-hidden="true">i</div><p><strong>Diferença entre Profissionalizantes e Técnicos:</strong><br><span>Os cursos <b>Profissionalizantes</b> focam em rápida capacitação prática de mercado (sem pré-requisitos formais de educação básica). Já os cursos <b>Técnicos</b> são habilitações oficiais autorizadas pelo MEC, vinculadas à educação formal de nível médio, capacitando com diplomas técnicos de validade nacional.</span></p></div></section>
+
+    <section class="programs-section page-shell">
+      <p class="eyebrow">Programas ativos encontrados (9)</p>
+      <h2>Seis programas destacados para você explorar</h2>
+      <div class="program-grid">
+        <article class="program-card" data-level="profissionalizante" data-area="sistemas" data-mode="online"><div class="program-top"><span>Profissionalizante</span><b>Rápido &amp; Prático</b></div><div class="program-content"><h3>Administração de Redes Linux</h3><small>Duração: 160h · Modalidade: 100% Online · Área: Sistemas</small><p>Capacitação profissional rápida focada na configuração e administração de servidores Linux corporativos e automações em bash para ambientes cloud de larga escala.</p><div class="program-actions"><a href="curso-redes.html">Ver Detalhes</a><a class="mini-button" href="inscricao.html">Inscreva-se</a></div></div></article>
+        <article class="program-card" data-level="tecnico" data-area="redes" data-mode="presencial"><div class="program-top"><span class="black-label">Técnico Oficial</span><b class="green-label">Habilitação MEC</b></div><div class="program-content"><h3>Técnico em Telecomunicações</h3><small>Duração: 1200h (3 Semestres) · Modalidade: Presencial · Área: Redes</small><p>Habilitação técnica certificada de validade nacional para operar infraestruturas de transmissão de dados, redes móveis 5G e cabeamento de fibra óptica de alto desempenho.</p><div class="program-actions"><a href="curso-redes.html">Ver Detalhes</a><a class="mini-button" href="inscricao.html">Inscreva-se</a></div></div></article>
+        <article class="program-card" data-level="graduacao" data-area="sistemas" data-mode="hibrido"><div class="program-top"><span>Graduação Superior</span><b class="black-label">Bacharelado</b></div><div class="program-content"><h3>Engenharia de Software</h3><small>Duração: 8 Semestres · Modalidade: Híbrido · Área: Sistemas</small><p>Formação acadêmica integrada de máxima profundidade científica voltada para a gestão de código, teste automatizado avançado, design patterns e infraestrutura escalável.</p><div class="program-actions"><a href="graduacao.html">Ver Detalhes</a><a class="mini-button" href="inscricao.html">Inscreva-se</a></div></div></article>
+        <article class="program-card" data-level="pos" data-area="sistemas" data-mode="ead"><div class="program-top"><span>Pós-Graduação</span><b class="black-label">MBA Executivo</b></div><div class="program-content"><h3>Arquitetura de Sistemas Digitais</h3><small>Duração: 3 Semestres · Modalidade: EAD · Área: Sistemas</small><p>Programa direcionado a analistas sênior que desejam assumir papéis de liderança em governança de arquitetura corporativa distribuída e ecossistemas híbridos.</p><div class="program-actions"><a href="cursos.html">Ver Detalhes</a><a class="mini-button" href="inscricao.html">Inscreva-se</a></div></div></article>
+        <article class="program-card" data-level="profissionalizante" data-area="infraestrutura" data-mode="online"><div class="program-top"><span>Profissionalizante</span><b>Foco em Ferramentas</b></div><div class="program-content"><h3>Docker e Orquestração Kubernetes</h3><small>Duração: 80h · Modalidade: 100% Online · Área: Infraestrutura</small><p>Aprenda a conteinerizar aplicações críticas do mundo real, configurar clusters escaláveis com políticas seguras de controle de tráfego.</p><div class="program-actions"><a href="curso-ds.html">Ver Detalhes</a><a class="mini-button" href="inscricao.html">Inscreva-se</a></div></div></article>
+        <article class="program-card" data-level="tecnico" data-area="redes" data-mode="hibrido"><div class="program-top"><span class="black-label">Técnico Oficial</span><b class="green-label">Habilitação MEC</b></div><div class="program-content"><h3>Técnico em Redes de Computadores</h3><small>Duração: 1000h · Modalidade: Híbrido · Área: Redes</small><p>Curso técnico voltado à montagem, manutenção e controle de servidores de segurança, firewalls ativos e arquitetura física de redes industriais.</p><div class="program-actions"><a href="curso-redes.html">Ver Detalhes</a><a class="mini-button" href="inscricao.html">Inscreva-se</a></div></div></article>
+      </div>
+      <p class="empty-programs" hidden>Nenhum programa encontrado com esses filtros.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="page-shell footer-grid"><div class="footer-about"><img src="assets/images/logouise.png" alt="UiSE"><p>Formando líderes em tecnologia, engenharia de sistemas e educação estratégica para o mercado global moderno. Conectando conhecimento prático a metodologias inovadoras.</p><div class="social-links"><a href="index.html">LinkedIn</a><a href="index.html">YouTube</a><a href="index.html">Instagram</a></div></div><div><strong>Programas</strong><a href="cursos.html">Graduação EAD &amp; Presencial</a><a href="cursos.html">Pós-Graduação Executiva</a><a href="cursos.html">Cursos Técnicos Oficiais</a><a href="cursos.html">Formações Profissionalizantes</a><a href="cursos.html">Extensão Universitária</a><a href="cursos.html">Cursos Livres</a></div><div><strong>Institucional</strong><a href="sobre.html">Sobre a UISE</a><a href="sobre.html">Missão e Valores</a><a href="sobre.html">Corpo Docente</a><a href="sobre.html">Credenciamento MEC</a><a href="sobre.html">Responsabilidade Social</a><a href="contato.html">Parcerias Corporativas</a><a href="sobre.html">Imprensa</a></div><div><strong>Polos Oficiais</strong><a href="contato.html">Polo Principal - BH Centro</a><a href="contato.html">Polo São Paulo - SP</a><a href="contato.html">Polo Rio de Janeiro - RJ</a><a href="eventos.html">Calendário Acadêmico</a><a href="inscricao.html">Editais e Bolsas</a><a href="eventos.html">Eventos e Congressos</a></div><div><strong>Portal Acadêmico</strong><a href="login.html">Ambiente Virtual de Aprendizagem</a><a href="login.html">Secretaria Geral Digital</a><a href="login.html">Biblioteca Digital de Sistemas</a><a href="login.html">Central do Aluno</a><a href="login.html">Certificados Digitais</a><a href="contato.html">Suporte Técnico</a><a href="contato.html">Ouvidoria</a></div></div><div class="page-shell footer-bottom"><span>© 2026 UISE - Universidade Internacional de Sistemas e Educação. Credenciada pelo Ministério da Educação.</span><span>Privacidade · Termos de Uso · Acessibilidade</span></div></footer>
+  <script src="js/script.js" defer></script>
+</body>
+</html>
